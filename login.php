@@ -2,7 +2,6 @@
 $con=mysqli_connect("localhost","root","","cimage");
 $u=$_POST['uname'];
 $p=$_POST['pass'];
-// "SELECT * from admin2 where username='admin' and password='admin';"
 $q="SELECT * FROM `admin2` WHERE username='$u' and password='$p'";
 $r=mysqli_query($con,$q);
 echo $row=mysqli_num_rows($r);
