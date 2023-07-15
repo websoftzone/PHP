@@ -1,6 +1,4 @@
 <?php
-$cor=array("red","blue","green");
-echo nl2br($cor[0]."\n ".$cor[1]."\n ".$cor[2]);
 if(!empty($_POST['fn']) && !empty($_POST['sn'])){
 	$firsn=$_POST['fn'];
 	$secondn=$_POST['sn'];
